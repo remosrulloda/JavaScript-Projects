@@ -1,0 +1,23 @@
+html {
+    background: url(images/background.png) no-repeat center center fixed;
+    background-color: rgb(187,152,185);
+}
+
+
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square { 
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole {
+    background-image: url("images/grammy.png");
+    background-size: 200px;
+}
